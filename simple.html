@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple CSS</title>
+
+    <Link rel="stylesheet" href="simplestyle.CSS">
+
+    <style>
+        h1{
+            color:green;
+            background-color:white;/*It shows that inline CSS is more powerful than internal CSS*/
+        }
+
+        #Internal_CSS{
+            font-style: bold; /*we can add the font style like bold, italic in CSS also*/
+            text-decoration-line: underline;
+            text-transform:uppercase;
+            letter-spacing:1px;
+
+        }
+        #Internaldefinition{
+            line-height:25px;
+        }
+        
+    </style>
+</head>
+<body class="stylebody">
+    <h1 style="color:blue;">Welcome to CSS</h1>
+    <h4> Different ways to add CSS:</h4>
+    <ul>
+        <li>
+            <ins>
+                <b id="Inline_CSS">Inline CSS :</b>
+            </ins>
+            <div id="definition">In inline CSS, the styles add with html element. We add the styles directly at the time of declaration of html element. </div>
+             <div>Inline CSS has more priority than internal.</div>
+        </li>
+           <br>
+        <li>
+            <b id="Internal_CSS">
+                Internal CSS:</b>
+            <div id="Internaldefinition">
+                In internal CSS, the styles are added to the 'style' tag in head element
+            </div>
+            <div>Internal CSS has the highest priority.</div>
+        </li>
+        <br>
+        <li>
+          <ins>
+            <b id="External_CSS">External CSS:</b>
+          </ins>
+            <div id="definition_external">In external CSS, the styles are added in different file which connect to the html file using the 'link' tag</div>
+            <div> External CSS has the lowest priority.</div>
+        </li>
+    </ul>
+
+
+</body>
+</html>

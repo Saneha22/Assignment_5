@@ -1,0 +1,20 @@
+: root {
+    --ruby : #D8334A;
+    --teal : #ADCECB;
+    
+}
+.body_style {
+    text-align: center;
+    line-height: 3em;
+    word-spacing: 2px;
+    padding :2em 30em;
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/13/12/28/pen-2398693_640.jpg");
+    background-repeat: repeat;
+    background-position: 100em ;
+    background-attachment: fixed;
+    height: 300px;
+    border: 1px;
+    color: var(--ruby);
+    
+}
+

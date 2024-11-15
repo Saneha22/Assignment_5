@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style the form</title>
+    <link rel="stylesheet" href="form-style.CSS">
+</head>
+<body class="body_style">
+    <h1 class="form">
+         School Admission Form
+        </h1>
+    <form action="Admission_form" method="post">
+        <table border="1 px">
+            <tr>
+                <td>
+                    <b id="student-name">
+                    Student's Name :
+                    </b>
+                </td>
+                <td>
+                    <input type="text" name="Student's Name" placeholder="Name">
+                </td>
+            </tr>
+            <tr id="class">
+                <td>
+                    <b>
+                    Class you want to apply for*
+                    </b>
+                </td>
+                <td>
+                    <b>
+                    <input type="text" name="class">
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                    Student's DOB :
+                    </b>
+                </td>
+                <td>
+                    <input type="date" name="date" placeholder="DD/MM/YYYY">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                    Gender :
+                    </b>
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                    Parent's Name :
+                    </b>
+                </td>
+                <td>
+                    <input type="text" name="Parent's Name" >
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">
+                    <b>
+                   Current Address :
+                    </b>
+                </td>
+                <td>
+                    <input type="text" name="Address" placeholder="Street Address">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="text" name="Street Address" placeholder="Street Address LIne 2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="city" placeholder="City">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="postal" placeholder="Postal/Zip Code">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                    Phone :
+                    </b>
+                </td>
+                <td>
+                    <input type="Phone" name="Phone" placeholder="##########">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>
+                    Email :
+                    </b>
+                </td>
+                <td>
+                    <input type="Email" name="Email">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

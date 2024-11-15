@@ -1,0 +1,53 @@
+:root {
+    --powderpink : #FBD1D1;
+    --pondbottom : #264A46;
+    --navy : #363A57;
+    --lightred : #c7004c;
+    --gradient : #A16BFE ;
+
+}
+
+body{
+    background-color : var(--lightred);
+    color : black;
+    padding : 150px;
+
+}
+
+.Introduction {
+    font-style: bold;
+    text-decoration-line : underline;
+    text-transform : uppercase ;
+    text-align: center;
+}
+
+.style {
+    border-style : solid ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius:10px;
+   background-color : white;
+   text-overflow: clip;
+   font-size : 15px;
+}
+
+ .importance {
+ text-decoration-line : underline;
+ text-transform : uppercase;
+ font-size : 17px;
+}
+
+.internet {
+    text-decoration-line : underline;
+    text-transform : uppercase;
+    text-align : center;
+    font-size : 17px;
+}
+
+.features {
+    border-style : dotted ;
+    padding : 10px 20px 30px 20px;
+    list-style-type : lower-roman;
+    font-size : 15px;
+}

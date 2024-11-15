@@ -1,0 +1,25 @@
+.stylebody{
+    background-color:black;
+    color:white;
+}
+
+#Inline_CSS{
+    text-decoration-line: underline;
+    text-transform: uppercase; /*we can transform the text in uppercase,lowercase and also in capitalize form*/
+    letter-spacing: 1px;
+    text-indent:60px;
+}
+
+#definition{
+    line-height: 25px; /* px is a unit of measurement*/
+}
+
+#External_CSS{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#definition_external{
+    line-height: 25px;
+}
+
